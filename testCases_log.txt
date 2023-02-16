@@ -3,157 +3,38 @@
 [INFO] ----------------------< org.revature:Challenges >-----------------------
 [INFO] Building Challenges 1.1
 [INFO] --------------------------------[ jar ]---------------------------------
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M7/maven-surefire-plugin-3.0.0-M7.pom
-Progress (1): 2.7/7.2 kBProgress (1): 5.5/7.2 kBProgress (1): 7.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M7/maven-surefire-plugin-3.0.0-M7.pom (7.2 kB at 22 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.0.0-M7/surefire-3.0.0-M7.pom
-Progress (1): 2.7/22 kBProgress (1): 5.5/22 kBProgress (1): 8.2/22 kBProgress (1): 11/22 kB Progress (1): 14/22 kBProgress (1): 16/22 kBProgress (1): 19/22 kBProgress (1): 22 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.0.0-M7/surefire-3.0.0-M7.pom (22 kB at 657 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/36/maven-parent-36.pom
-Progress (1): 4.1/45 kBProgress (1): 8.2/45 kBProgress (1): 12/45 kB Progress (1): 16/45 kBProgress (1): 20/45 kBProgress (1): 25/45 kBProgress (1): 29/45 kBProgress (1): 33/45 kBProgress (1): 37/45 kBProgress (1): 41/45 kBProgress (1): 45/45 kBProgress (1): 45 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/36/maven-parent-36.pom (45 kB at 1.2 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/26/apache-26.pom
-Progress (1): 4.1/21 kBProgress (1): 8.2/21 kBProgress (1): 12/21 kB Progress (1): 16/21 kBProgress (1): 20/21 kBProgress (1): 21 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/26/apache-26.pom (21 kB at 822 kB/s)
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Challenges ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 [INFO] Copying 1 resource
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Challenges ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Challenges ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workspace/cadellarova-pep-project/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Challenges ---
 [INFO] Changes detected - recompiling the module!
 [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 9 source files to /workspace/cadellarova-pep-project/target/classes
+[INFO] Compiling 2 source files to /workspace/cadellarova-pep-project/target/test-classes
 [INFO] -------------------------------------------------------------
 [ERROR] COMPILATION ERROR : 
 [INFO] -------------------------------------------------------------
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/AccountDAO.java:[16,8] class MessageDAO is public, should be declared in a file named MessageDAO.java
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/Service/MessageService.java:[3,25] package Application.Model does not exist
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/MessageDAO.java:[3,25] package Application.Model does not exist
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/MessageDAO.java:[4,24] package Application.Util does not exist
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/Service/MessageService.java:[35,17] cannot find symbol
-  symbol:   class Message
-  location: class Application.Service.MessageService
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/Service/MessageService.java:[44,31] cannot find symbol
-  symbol:   class Message
-  location: class Application.Service.MessageService
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/Service/MessageService.java:[44,12] cannot find symbol
-  symbol:   class Message
-  location: class Application.Service.MessageService
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/MessageDAO.java:[30,17] cannot find symbol
-  symbol:   class Author
-  location: class Application.DAO.MessageDAO
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/MessageDAO.java:[54,32] cannot find symbol
-  symbol:   class Author
-  location: class Application.DAO.MessageDAO
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/MessageDAO.java:[54,12] cannot find symbol
-  symbol:   class Author
-  location: class Application.DAO.MessageDAO
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/Service/AccountService.java:[3,25] package Application.Model does not exist
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/Service/AccountService.java:[12,13] cannot find symbol
-  symbol:   class AccountDAO
-  location: class Application.Service.AccountService
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/Service/AccountService.java:[21,27] cannot find symbol
-  symbol:   class AccountDAO
-  location: class Application.Service.AccountService
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/Service/AccountService.java:[29,17] cannot find symbol
-  symbol:   class Account
-  location: class Application.Service.AccountService
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/Service/AccountService.java:[38,31] cannot find symbol
-  symbol:   class Account
-  location: class Application.Service.AccountService
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/Service/AccountService.java:[38,12] cannot find symbol
-  symbol:   class Account
-  location: class Application.Service.AccountService
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/AccountDAO.java:[6,25] package Application.Model does not exist
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/AccountDAO.java:[7,24] package Application.Util does not exist
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/MessageDAO.java:[31,33] cannot find symbol
-  symbol:   variable ConnectionUtil
-  location: class Application.DAO.MessageDAO
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/MessageDAO.java:[32,14] cannot find symbol
-  symbol:   class Author
-  location: class Application.DAO.MessageDAO
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/MessageDAO.java:[39,17] cannot find symbol
-  symbol:   class Author
-  location: class Application.DAO.MessageDAO
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/MessageDAO.java:[39,37] cannot find symbol
-  symbol:   class Author
-  location: class Application.DAO.MessageDAO
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/MessageDAO.java:[55,33] cannot find symbol
-  symbol:   variable ConnectionUtil
-  location: class Application.DAO.MessageDAO
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/MessageDAO.java:[68,28] cannot find symbol
-  symbol:   class Author
-  location: class Application.DAO.MessageDAO
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/Service/AccountService.java:[18,26] cannot find symbol
-  symbol:   class AccountDAO
-  location: class Application.Service.AccountService
-[INFO] 25 errors 
+[ERROR] /workspace/cadellarova-pep-project/src/test/java/AuthIntegrationTest.java:[41,45] incompatible types: void cannot be converted to io.javalin.Javalin
+[ERROR] /workspace/cadellarova-pep-project/src/test/java/MessagingIntegrationTest.java:[45,45] incompatible types: void cannot be converted to io.javalin.Javalin
+[INFO] 2 errors 
 [INFO] -------------------------------------------------------------
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  3.340 s
-[INFO] Finished at: 2023-02-15T16:10:10Z
+[INFO] Total time:  2.377 s
+[INFO] Finished at: 2023-02-16T04:59:43Z
 [INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project Challenges: Compilation failure: Compilation failure: 
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/AccountDAO.java:[16,8] class MessageDAO is public, should be declared in a file named MessageDAO.java
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/Service/MessageService.java:[3,25] package Application.Model does not exist
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/MessageDAO.java:[3,25] package Application.Model does not exist
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/MessageDAO.java:[4,24] package Application.Util does not exist
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/Service/MessageService.java:[35,17] cannot find symbol
-[ERROR]   symbol:   class Message
-[ERROR]   location: class Application.Service.MessageService
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/Service/MessageService.java:[44,31] cannot find symbol
-[ERROR]   symbol:   class Message
-[ERROR]   location: class Application.Service.MessageService
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/Service/MessageService.java:[44,12] cannot find symbol
-[ERROR]   symbol:   class Message
-[ERROR]   location: class Application.Service.MessageService
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/MessageDAO.java:[30,17] cannot find symbol
-[ERROR]   symbol:   class Author
-[ERROR]   location: class Application.DAO.MessageDAO
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/MessageDAO.java:[54,32] cannot find symbol
-[ERROR]   symbol:   class Author
-[ERROR]   location: class Application.DAO.MessageDAO
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/MessageDAO.java:[54,12] cannot find symbol
-[ERROR]   symbol:   class Author
-[ERROR]   location: class Application.DAO.MessageDAO
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/Service/AccountService.java:[3,25] package Application.Model does not exist
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/Service/AccountService.java:[12,13] cannot find symbol
-[ERROR]   symbol:   class AccountDAO
-[ERROR]   location: class Application.Service.AccountService
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/Service/AccountService.java:[21,27] cannot find symbol
-[ERROR]   symbol:   class AccountDAO
-[ERROR]   location: class Application.Service.AccountService
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/Service/AccountService.java:[29,17] cannot find symbol
-[ERROR]   symbol:   class Account
-[ERROR]   location: class Application.Service.AccountService
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/Service/AccountService.java:[38,31] cannot find symbol
-[ERROR]   symbol:   class Account
-[ERROR]   location: class Application.Service.AccountService
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/Service/AccountService.java:[38,12] cannot find symbol
-[ERROR]   symbol:   class Account
-[ERROR]   location: class Application.Service.AccountService
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/AccountDAO.java:[6,25] package Application.Model does not exist
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/AccountDAO.java:[7,24] package Application.Util does not exist
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/MessageDAO.java:[31,33] cannot find symbol
-[ERROR]   symbol:   variable ConnectionUtil
-[ERROR]   location: class Application.DAO.MessageDAO
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/MessageDAO.java:[32,14] cannot find symbol
-[ERROR]   symbol:   class Author
-[ERROR]   location: class Application.DAO.MessageDAO
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/MessageDAO.java:[39,17] cannot find symbol
-[ERROR]   symbol:   class Author
-[ERROR]   location: class Application.DAO.MessageDAO
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/MessageDAO.java:[39,37] cannot find symbol
-[ERROR]   symbol:   class Author
-[ERROR]   location: class Application.DAO.MessageDAO
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/MessageDAO.java:[55,33] cannot find symbol
-[ERROR]   symbol:   variable ConnectionUtil
-[ERROR]   location: class Application.DAO.MessageDAO
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/DAO/MessageDAO.java:[68,28] cannot find symbol
-[ERROR]   symbol:   class Author
-[ERROR]   location: class Application.DAO.MessageDAO
-[ERROR] /workspace/cadellarova-pep-project/src/main/java/Service/AccountService.java:[18,26] cannot find symbol
-[ERROR]   symbol:   class AccountDAO
-[ERROR]   location: class Application.Service.AccountService
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile) on project Challenges: Compilation failure: Compilation failure: 
+[ERROR] /workspace/cadellarova-pep-project/src/test/java/AuthIntegrationTest.java:[41,45] incompatible types: void cannot be converted to io.javalin.Javalin
+[ERROR] /workspace/cadellarova-pep-project/src/test/java/MessagingIntegrationTest.java:[45,45] incompatible types: void cannot be converted to io.javalin.Javalin
 [ERROR] -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
