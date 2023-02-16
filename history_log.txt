@@ -1,0 +1,7 @@
+commit 6079e86af5e5fc4430d6d1f1176e877623801f75
+Author: cadellarova <cdellarova@gmail.com>
+Date:   Wed Feb 15 16:09:01 2023 +0000
+
+    building frame of DAO and service, used old project for guidance
+
+ 6 files changed, 7 insertions(+), 9 deletions(-)
